@@ -1,0 +1,499 @@
+2020-11-26 11:30:42,351 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io
+2020-11-26 11:30:50,929 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io
+2020-11-26 11:32:06,234 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/.DS_Store/.DS_Store
+2020-11-26 11:33:28,480 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/.DS_Store/.DS_Store
+2020-11-26 11:33:37,115 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/.DS_Store/.DS_Store
+2020-11-26 11:33:38,614 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/.DS_Store/boltsframework.github.io
+2020-11-26 11:33:44,882 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/.DS_Store
+2020-11-26 11:33:55,835 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/boltsframework.github.io
+2020-11-26 11:34:53,280 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/.DS_Store/.DS_Store
+2020-11-26 11:34:53,280 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/.DS_Store/boltsframework.github.io
+2020-11-26 11:34:53,280 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/.DS_Store
+2020-11-26 11:34:53,281 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/boltsframework.github.io
+2020-11-26 11:35:51,628 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/.DS_Store/.DS_Store
+2020-11-26 11:35:51,628 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/.DS_Store/boltsframework.github.io
+2020-11-26 11:35:51,628 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/.DS_Store
+2020-11-26 11:35:51,629 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/boltsframework.github.io
+2020-11-26 11:38:06,398 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android
+2020-11-26 11:38:51,787 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android
+2020-11-26 11:38:53,577 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AggregateException.html
+2020-11-26 11:39:07,057 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android
+2020-11-26 11:39:07,061 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AggregateException.html
+2020-11-26 11:39:07,079 parser       DEBUG    Class AggregateException
+2020-11-26 11:39:07,080 parser       DEBUG    Aggregates multiple Throwables that may be thrown in the process of a task's execution.
+2020-11-26 11:39:07,080 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,083 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,083 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLink.html
+2020-11-26 11:39:07,100 parser       DEBUG    Class AppLink
+2020-11-26 11:39:07,100 parser       DEBUG    Contains App Link metadata relevant for navigation on this device derived from the HTML at a given URL.
+2020-11-26 11:39:07,100 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,102 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,102 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLink.Target.html
+2020-11-26 11:39:07,125 parser       DEBUG    Class AppLink.Target
+2020-11-26 11:39:07,125 parser       DEBUG    Represents a target defined in App Link metadata, consisting of at least a package name, and optionally a URL, class name (for explicit intent handling), and an app name.
+2020-11-26 11:39:07,125 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,127 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,127 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkNavigation.html
+2020-11-26 11:39:07,160 parser       DEBUG    Class AppLinkNavigation
+2020-11-26 11:39:07,161 parser       DEBUG    Represents a pending request to navigate to an App Link. Most developers will simply use navigateInBackground(Context, Uri) to open a URL, but developers can build custom requests with additional navigation and app data attached to them by creating AppLinkNavigations themselves.
+2020-11-26 11:39:07,161 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,167 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,168 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkNavigation.NavigationResult.html
+2020-11-26 11:39:07,188 parser       DEBUG    Enum AppLinkNavigation.NavigationResult
+2020-11-26 11:39:07,189 parser       DEBUG    The result of calling AppLinkNavigation.navigate(Context) on an AppLinkNavigation.
+2020-11-26 11:39:07,189 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,192 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,192 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkResolver.html
+2020-11-26 11:39:07,203 parser       DEBUG    Interface AppLinkResolver
+2020-11-26 11:39:07,205 parser       DEBUG    Implement this interface to provide an alternate strategy for resolving App Links that may include pre-fetching, caching, or querying for App Link data from an index provided by a service provider.
+2020-11-26 11:39:07,205 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,207 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,207 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinks.html
+2020-11-26 11:39:07,223 parser       DEBUG    Class AppLinks
+2020-11-26 11:39:07,224 parser       DEBUG    Provides a set of utility methods for working with incoming Intents that may contain App Link data.
+2020-11-26 11:39:07,224 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,226 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,226 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Bolts.html
+2020-11-26 11:39:07,242 parser       DEBUG    Class Bolts
+2020-11-26 11:39:07,242 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,243 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,244 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationToken.html
+2020-11-26 11:39:07,261 parser       DEBUG    Class CancellationToken
+2020-11-26 11:39:07,261 parser       DEBUG    Propagates notification that operations should be canceled. Create an instance of CancellationTokenSource and pass the token returned from CancellationTokenSource#getToken() to the asynchronous operation(s). Call CancellationTokenSource#cancel() to cancel the operations. A CancellationToken can only be cancelled once - it should not be passed to future operations once cancelled.
+2020-11-26 11:39:07,262 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,265 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,265 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationTokenRegistration.html
+2020-11-26 11:39:07,277 parser       DEBUG    Class CancellationTokenRegistration
+2020-11-26 11:39:07,278 parser       DEBUG    Represents a callback delegate that has been registered with a CancellationToken.
+2020-11-26 11:39:07,278 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,279 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,279 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationTokenSource.html
+2020-11-26 11:39:07,299 parser       DEBUG    Class CancellationTokenSource
+2020-11-26 11:39:07,301 parser       DEBUG    Signals to a CancellationToken that it should be canceled. To create a CancellationToken first create a CancellationTokenSource then call getToken() to retrieve the token for the source.
+2020-11-26 11:39:07,301 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,303 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,303 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Capture.html
+2020-11-26 11:39:07,318 parser       DEBUG    Class Capture<T>
+2020-11-26 11:39:07,319 parser       DEBUG    Provides a class that can be used for capturing variables in an anonymous class implementation.
+2020-11-26 11:39:07,319 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,321 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,321 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Continuation.html
+2020-11-26 11:39:07,332 parser       DEBUG    Interface Continuation<TTaskResult,TContinuationResult>
+2020-11-26 11:39:07,333 parser       DEBUG    A function to be called after a task completes. If you wish to have the Task from a Continuation that does not return a Task be cancelled then throw a CancellationException from the Continuation.
+2020-11-26 11:39:07,333 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,334 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,334 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/ExecutorException.html
+2020-11-26 11:39:07,344 parser       DEBUG    Class ExecutorException
+2020-11-26 11:39:07,345 parser       DEBUG    This is a wrapper class for emphasizing that task failed due to bad Executor, rather than the continuation block it self.
+2020-11-26 11:39:07,345 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,347 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,347 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/MeasurementEvent.html
+2020-11-26 11:39:07,360 parser       DEBUG    Class MeasurementEvent
+2020-11-26 11:39:07,360 parser       DEBUG    Bolts raises events to the application by sending local broadcasts. Application integrated to Bolts can listen to events by registering BroadcastReceiver with intent filter MEASUREMENT_EVENT_NOTIFICATION_NAME. When receive the event, a String field MEASUREMENT_EVENT_NAME_KEY and A Bundle field @{link #MEASUREMENT_EVENT_ARGS_KEY} in Intent extra in indicate the event name and arguments with this event.
+2020-11-26 11:39:07,361 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,362 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,364 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Task.html
+2020-11-26 11:39:07,427 parser       DEBUG    Class Task<TResult>
+2020-11-26 11:39:07,428 parser       DEBUG    Represents the result of an asynchronous operation.
+2020-11-26 11:39:07,428 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,440 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,441 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Task.UnobservedExceptionHandler.html
+2020-11-26 11:39:07,468 parser       DEBUG    Interface Task.UnobservedExceptionHandler
+2020-11-26 11:39:07,469 parser       DEBUG    Interface for handlers invoked when a failed Task is about to be finalized, but the exception has not been consumed. The handler will execute in the GC thread, so if the handler needs to do anything time consuming or complex it is a good idea to fire off a Task to handle the exception.
+2020-11-26 11:39:07,470 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,471 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,471 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/TaskCompletionSource.html
+2020-11-26 11:39:07,505 parser       DEBUG    Class TaskCompletionSource<TResult>
+2020-11-26 11:39:07,509 parser       DEBUG    Allows safe orchestration of a task's completion, preventing the consumer from prematurely completing the task. Essentially, it represents the producer side of a Task, providing access to the consumer side through the getTask() method while isolating the Task's completion mechanisms from the consumer.
+2020-11-26 11:39:07,509 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,514 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,514 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/UnobservedTaskException.html
+2020-11-26 11:39:07,537 parser       DEBUG    Class UnobservedTaskException
+2020-11-26 11:39:07,542 parser       DEBUG    Used to signify that a Task's error went unobserved.
+2020-11-26 11:39:07,548 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,550 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:39:07,550 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/WebViewAppLinkResolver.html
+2020-11-26 11:39:07,608 parser       DEBUG    Class WebViewAppLinkResolver
+2020-11-26 11:39:07,609 parser       DEBUG    A reference implementation for an App Link resolver that uses a hidden WebView to parse the HTML containing App Link metadata.
+2020-11-26 11:39:07,609 parser       DEBUG    -Methods-
+2020-11-26 11:39:07,611 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,618 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android
+2020-11-26 11:41:37,621 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AggregateException.html
+2020-11-26 11:41:37,643 parser       DEBUG    Class AggregateException
+2020-11-26 11:41:37,644 parser       DEBUG    Aggregates multiple Throwables that may be thrown in the process of a task's execution.
+2020-11-26 11:41:37,644 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,648 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,649 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLink.html
+2020-11-26 11:41:37,663 parser       DEBUG    Class AppLink
+2020-11-26 11:41:37,663 parser       DEBUG    Contains App Link metadata relevant for navigation on this device derived from the HTML at a given URL.
+2020-11-26 11:41:37,663 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,670 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,670 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLink.Target.html
+2020-11-26 11:41:37,687 parser       DEBUG    Class AppLink.Target
+2020-11-26 11:41:37,688 parser       DEBUG    Represents a target defined in App Link metadata, consisting of at least a package name, and optionally a URL, class name (for explicit intent handling), and an app name.
+2020-11-26 11:41:37,689 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,690 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,690 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkNavigation.html
+2020-11-26 11:41:37,727 parser       DEBUG    Class AppLinkNavigation
+2020-11-26 11:41:37,728 parser       DEBUG    Represents a pending request to navigate to an App Link. Most developers will simply use navigateInBackground(Context, Uri) to open a URL, but developers can build custom requests with additional navigation and app data attached to them by creating AppLinkNavigations themselves.
+2020-11-26 11:41:37,729 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,735 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,735 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkNavigation.NavigationResult.html
+2020-11-26 11:41:37,751 parser       DEBUG    Enum AppLinkNavigation.NavigationResult
+2020-11-26 11:41:37,752 parser       DEBUG    The result of calling AppLinkNavigation.navigate(Context) on an AppLinkNavigation.
+2020-11-26 11:41:37,752 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,754 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,754 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkResolver.html
+2020-11-26 11:41:37,764 parser       DEBUG    Interface AppLinkResolver
+2020-11-26 11:41:37,766 parser       DEBUG    Implement this interface to provide an alternate strategy for resolving App Links that may include pre-fetching, caching, or querying for App Link data from an index provided by a service provider.
+2020-11-26 11:41:37,766 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,767 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,767 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinks.html
+2020-11-26 11:41:37,779 parser       DEBUG    Class AppLinks
+2020-11-26 11:41:37,781 parser       DEBUG    Provides a set of utility methods for working with incoming Intents that may contain App Link data.
+2020-11-26 11:41:37,782 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,784 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,785 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Bolts.html
+2020-11-26 11:41:37,794 parser       DEBUG    Class Bolts
+2020-11-26 11:41:37,794 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,797 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,797 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationToken.html
+2020-11-26 11:41:37,810 parser       DEBUG    Class CancellationToken
+2020-11-26 11:41:37,810 parser       DEBUG    Propagates notification that operations should be canceled. Create an instance of CancellationTokenSource and pass the token returned from CancellationTokenSource#getToken() to the asynchronous operation(s). Call CancellationTokenSource#cancel() to cancel the operations. A CancellationToken can only be cancelled once - it should not be passed to future operations once cancelled.
+2020-11-26 11:41:37,811 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,812 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,813 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationTokenRegistration.html
+2020-11-26 11:41:37,823 parser       DEBUG    Class CancellationTokenRegistration
+2020-11-26 11:41:37,824 parser       DEBUG    Represents a callback delegate that has been registered with a CancellationToken.
+2020-11-26 11:41:37,824 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,825 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,825 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationTokenSource.html
+2020-11-26 11:41:37,841 parser       DEBUG    Class CancellationTokenSource
+2020-11-26 11:41:37,842 parser       DEBUG    Signals to a CancellationToken that it should be canceled. To create a CancellationToken first create a CancellationTokenSource then call getToken() to retrieve the token for the source.
+2020-11-26 11:41:37,842 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,844 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,844 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Capture.html
+2020-11-26 11:41:37,857 parser       DEBUG    Class Capture<T>
+2020-11-26 11:41:37,858 parser       DEBUG    Provides a class that can be used for capturing variables in an anonymous class implementation.
+2020-11-26 11:41:37,858 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,859 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,859 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Continuation.html
+2020-11-26 11:41:37,869 parser       DEBUG    Interface Continuation<TTaskResult,TContinuationResult>
+2020-11-26 11:41:37,870 parser       DEBUG    A function to be called after a task completes. If you wish to have the Task from a Continuation that does not return a Task be cancelled then throw a CancellationException from the Continuation.
+2020-11-26 11:41:37,870 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,872 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,872 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/ExecutorException.html
+2020-11-26 11:41:37,883 parser       DEBUG    Class ExecutorException
+2020-11-26 11:41:37,883 parser       DEBUG    This is a wrapper class for emphasizing that task failed due to bad Executor, rather than the continuation block it self.
+2020-11-26 11:41:37,883 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,884 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,884 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/MeasurementEvent.html
+2020-11-26 11:41:37,899 parser       DEBUG    Class MeasurementEvent
+2020-11-26 11:41:37,900 parser       DEBUG    Bolts raises events to the application by sending local broadcasts. Application integrated to Bolts can listen to events by registering BroadcastReceiver with intent filter MEASUREMENT_EVENT_NOTIFICATION_NAME. When receive the event, a String field MEASUREMENT_EVENT_NAME_KEY and A Bundle field @{link #MEASUREMENT_EVENT_ARGS_KEY} in Intent extra in indicate the event name and arguments with this event.
+2020-11-26 11:41:37,900 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,902 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,902 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Task.html
+2020-11-26 11:41:37,974 parser       DEBUG    Class Task<TResult>
+2020-11-26 11:41:37,975 parser       DEBUG    Represents the result of an asynchronous operation.
+2020-11-26 11:41:37,975 parser       DEBUG    -Methods-
+2020-11-26 11:41:37,990 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:37,990 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Task.UnobservedExceptionHandler.html
+2020-11-26 11:41:38,001 parser       DEBUG    Interface Task.UnobservedExceptionHandler
+2020-11-26 11:41:38,003 parser       DEBUG    Interface for handlers invoked when a failed Task is about to be finalized, but the exception has not been consumed. The handler will execute in the GC thread, so if the handler needs to do anything time consuming or complex it is a good idea to fire off a Task to handle the exception.
+2020-11-26 11:41:38,004 parser       DEBUG    -Methods-
+2020-11-26 11:41:38,005 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:38,005 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/TaskCompletionSource.html
+2020-11-26 11:41:38,023 parser       DEBUG    Class TaskCompletionSource<TResult>
+2020-11-26 11:41:38,024 parser       DEBUG    Allows safe orchestration of a task's completion, preventing the consumer from prematurely completing the task. Essentially, it represents the producer side of a Task, providing access to the consumer side through the getTask() method while isolating the Task's completion mechanisms from the consumer.
+2020-11-26 11:41:38,024 parser       DEBUG    -Methods-
+2020-11-26 11:41:38,027 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:38,027 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/UnobservedTaskException.html
+2020-11-26 11:41:38,040 parser       DEBUG    Class UnobservedTaskException
+2020-11-26 11:41:38,040 parser       DEBUG    Used to signify that a Task's error went unobserved.
+2020-11-26 11:41:38,041 parser       DEBUG    -Methods-
+2020-11-26 11:41:38,042 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:41:38,042 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/WebViewAppLinkResolver.html
+2020-11-26 11:41:38,055 parser       DEBUG    Class WebViewAppLinkResolver
+2020-11-26 11:41:38,056 parser       DEBUG    A reference implementation for an App Link resolver that uses a hidden WebView to parse the HTML containing App Link metadata.
+2020-11-26 11:41:38,056 parser       DEBUG    -Methods-
+2020-11-26 11:41:38,058 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,597 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android
+2020-11-26 11:42:00,602 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AggregateException.html
+2020-11-26 11:42:00,622 parser       DEBUG    Class AggregateException
+2020-11-26 11:42:00,623 parser       DEBUG    Aggregates multiple Throwables that may be thrown in the process of a task's execution.
+2020-11-26 11:42:00,623 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,626 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,626 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLink.html
+2020-11-26 11:42:00,643 parser       DEBUG    Class AppLink
+2020-11-26 11:42:00,643 parser       DEBUG    Contains App Link metadata relevant for navigation on this device derived from the HTML at a given URL.
+2020-11-26 11:42:00,643 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,645 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,646 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLink.Target.html
+2020-11-26 11:42:00,660 parser       DEBUG    Class AppLink.Target
+2020-11-26 11:42:00,661 parser       DEBUG    Represents a target defined in App Link metadata, consisting of at least a package name, and optionally a URL, class name (for explicit intent handling), and an app name.
+2020-11-26 11:42:00,661 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,662 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,663 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkNavigation.html
+2020-11-26 11:42:00,691 parser       DEBUG    Class AppLinkNavigation
+2020-11-26 11:42:00,691 parser       DEBUG    Represents a pending request to navigate to an App Link. Most developers will simply use navigateInBackground(Context, Uri) to open a URL, but developers can build custom requests with additional navigation and app data attached to them by creating AppLinkNavigations themselves.
+2020-11-26 11:42:00,692 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,697 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,697 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkNavigation.NavigationResult.html
+2020-11-26 11:42:00,712 parser       DEBUG    Enum AppLinkNavigation.NavigationResult
+2020-11-26 11:42:00,713 parser       DEBUG    The result of calling AppLinkNavigation.navigate(Context) on an AppLinkNavigation.
+2020-11-26 11:42:00,713 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,715 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,715 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkResolver.html
+2020-11-26 11:42:00,724 parser       DEBUG    Interface AppLinkResolver
+2020-11-26 11:42:00,725 parser       DEBUG    Implement this interface to provide an alternate strategy for resolving App Links that may include pre-fetching, caching, or querying for App Link data from an index provided by a service provider.
+2020-11-26 11:42:00,725 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,726 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,726 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinks.html
+2020-11-26 11:42:00,739 parser       DEBUG    Class AppLinks
+2020-11-26 11:42:00,740 parser       DEBUG    Provides a set of utility methods for working with incoming Intents that may contain App Link data.
+2020-11-26 11:42:00,740 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,741 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,741 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Bolts.html
+2020-11-26 11:42:00,753 parser       DEBUG    Class Bolts
+2020-11-26 11:42:00,753 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,754 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,754 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationToken.html
+2020-11-26 11:42:00,766 parser       DEBUG    Class CancellationToken
+2020-11-26 11:42:00,767 parser       DEBUG    Propagates notification that operations should be canceled. Create an instance of CancellationTokenSource and pass the token returned from CancellationTokenSource#getToken() to the asynchronous operation(s). Call CancellationTokenSource#cancel() to cancel the operations. A CancellationToken can only be cancelled once - it should not be passed to future operations once cancelled.
+2020-11-26 11:42:00,768 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,770 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,770 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationTokenRegistration.html
+2020-11-26 11:42:00,779 parser       DEBUG    Class CancellationTokenRegistration
+2020-11-26 11:42:00,779 parser       DEBUG    Represents a callback delegate that has been registered with a CancellationToken.
+2020-11-26 11:42:00,779 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,780 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,780 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationTokenSource.html
+2020-11-26 11:42:00,795 parser       DEBUG    Class CancellationTokenSource
+2020-11-26 11:42:00,796 parser       DEBUG    Signals to a CancellationToken that it should be canceled. To create a CancellationToken first create a CancellationTokenSource then call getToken() to retrieve the token for the source.
+2020-11-26 11:42:00,796 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,798 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,798 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Capture.html
+2020-11-26 11:42:00,809 parser       DEBUG    Class Capture<T>
+2020-11-26 11:42:00,810 parser       DEBUG    Provides a class that can be used for capturing variables in an anonymous class implementation.
+2020-11-26 11:42:00,810 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,811 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,811 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Continuation.html
+2020-11-26 11:42:00,821 parser       DEBUG    Interface Continuation<TTaskResult,TContinuationResult>
+2020-11-26 11:42:00,822 parser       DEBUG    A function to be called after a task completes. If you wish to have the Task from a Continuation that does not return a Task be cancelled then throw a CancellationException from the Continuation.
+2020-11-26 11:42:00,822 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,823 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,823 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/ExecutorException.html
+2020-11-26 11:42:00,832 parser       DEBUG    Class ExecutorException
+2020-11-26 11:42:00,832 parser       DEBUG    This is a wrapper class for emphasizing that task failed due to bad Executor, rather than the continuation block it self.
+2020-11-26 11:42:00,832 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,833 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,833 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/MeasurementEvent.html
+2020-11-26 11:42:00,846 parser       DEBUG    Class MeasurementEvent
+2020-11-26 11:42:00,847 parser       DEBUG    Bolts raises events to the application by sending local broadcasts. Application integrated to Bolts can listen to events by registering BroadcastReceiver with intent filter MEASUREMENT_EVENT_NOTIFICATION_NAME. When receive the event, a String field MEASUREMENT_EVENT_NAME_KEY and A Bundle field @{link #MEASUREMENT_EVENT_ARGS_KEY} in Intent extra in indicate the event name and arguments with this event.
+2020-11-26 11:42:00,847 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,848 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,848 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Task.html
+2020-11-26 11:42:00,910 parser       DEBUG    Class Task<TResult>
+2020-11-26 11:42:00,910 parser       DEBUG    Represents the result of an asynchronous operation.
+2020-11-26 11:42:00,910 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,922 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,922 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Task.UnobservedExceptionHandler.html
+2020-11-26 11:42:00,930 parser       DEBUG    Interface Task.UnobservedExceptionHandler
+2020-11-26 11:42:00,931 parser       DEBUG    Interface for handlers invoked when a failed Task is about to be finalized, but the exception has not been consumed. The handler will execute in the GC thread, so if the handler needs to do anything time consuming or complex it is a good idea to fire off a Task to handle the exception.
+2020-11-26 11:42:00,931 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,932 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,932 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/TaskCompletionSource.html
+2020-11-26 11:42:00,947 parser       DEBUG    Class TaskCompletionSource<TResult>
+2020-11-26 11:42:00,947 parser       DEBUG    Allows safe orchestration of a task's completion, preventing the consumer from prematurely completing the task. Essentially, it represents the producer side of a Task, providing access to the consumer side through the getTask() method while isolating the Task's completion mechanisms from the consumer.
+2020-11-26 11:42:00,947 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,949 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,949 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/UnobservedTaskException.html
+2020-11-26 11:42:00,960 parser       DEBUG    Class UnobservedTaskException
+2020-11-26 11:42:00,961 parser       DEBUG    Used to signify that a Task's error went unobserved.
+2020-11-26 11:42:00,961 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,962 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:42:00,962 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/WebViewAppLinkResolver.html
+2020-11-26 11:42:00,973 parser       DEBUG    Class WebViewAppLinkResolver
+2020-11-26 11:42:00,974 parser       DEBUG    A reference implementation for an App Link resolver that uses a hidden WebView to parse the HTML containing App Link metadata.
+2020-11-26 11:42:00,974 parser       DEBUG    -Methods-
+2020-11-26 11:42:00,975 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,750 parser       DEBUG    Directory /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android
+2020-11-26 11:43:14,754 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AggregateException.html
+2020-11-26 11:43:14,774 parser       DEBUG    Class AggregateException
+2020-11-26 11:43:14,775 parser       DEBUG    Aggregates multiple Throwables that may be thrown in the process of a task's execution.
+2020-11-26 11:43:14,775 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,778 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,778 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLink.html
+2020-11-26 11:43:14,795 parser       DEBUG    Class AppLink
+2020-11-26 11:43:14,796 parser       DEBUG    Contains App Link metadata relevant for navigation on this device derived from the HTML at a given URL.
+2020-11-26 11:43:14,796 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,797 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,797 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLink.Target.html
+2020-11-26 11:43:14,815 parser       DEBUG    Class AppLink.Target
+2020-11-26 11:43:14,815 parser       DEBUG    Represents a target defined in App Link metadata, consisting of at least a package name, and optionally a URL, class name (for explicit intent handling), and an app name.
+2020-11-26 11:43:14,815 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,821 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,821 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkNavigation.html
+2020-11-26 11:43:14,857 parser       DEBUG    Class AppLinkNavigation
+2020-11-26 11:43:14,857 parser       DEBUG    Represents a pending request to navigate to an App Link. Most developers will simply use navigateInBackground(Context, Uri) to open a URL, but developers can build custom requests with additional navigation and app data attached to them by creating AppLinkNavigations themselves.
+2020-11-26 11:43:14,858 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,863 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,863 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkNavigation.NavigationResult.html
+2020-11-26 11:43:14,881 parser       DEBUG    Enum AppLinkNavigation.NavigationResult
+2020-11-26 11:43:14,882 parser       DEBUG    The result of calling AppLinkNavigation.navigate(Context) on an AppLinkNavigation.
+2020-11-26 11:43:14,882 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,884 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,887 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinkResolver.html
+2020-11-26 11:43:14,898 parser       DEBUG    Interface AppLinkResolver
+2020-11-26 11:43:14,898 parser       DEBUG    Implement this interface to provide an alternate strategy for resolving App Links that may include pre-fetching, caching, or querying for App Link data from an index provided by a service provider.
+2020-11-26 11:43:14,898 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,899 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,899 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/AppLinks.html
+2020-11-26 11:43:14,916 parser       DEBUG    Class AppLinks
+2020-11-26 11:43:14,921 parser       DEBUG    Provides a set of utility methods for working with incoming Intents that may contain App Link data.
+2020-11-26 11:43:14,921 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,923 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,923 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Bolts.html
+2020-11-26 11:43:14,936 parser       DEBUG    Class Bolts
+2020-11-26 11:43:14,939 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,940 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,940 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationToken.html
+2020-11-26 11:43:14,956 parser       DEBUG    Class CancellationToken
+2020-11-26 11:43:14,957 parser       DEBUG    Propagates notification that operations should be canceled. Create an instance of CancellationTokenSource and pass the token returned from CancellationTokenSource#getToken() to the asynchronous operation(s). Call CancellationTokenSource#cancel() to cancel the operations. A CancellationToken can only be cancelled once - it should not be passed to future operations once cancelled.
+2020-11-26 11:43:14,957 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,958 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,958 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationTokenRegistration.html
+2020-11-26 11:43:14,971 parser       DEBUG    Class CancellationTokenRegistration
+2020-11-26 11:43:14,972 parser       DEBUG    Represents a callback delegate that has been registered with a CancellationToken.
+2020-11-26 11:43:14,972 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,973 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,973 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/CancellationTokenSource.html
+2020-11-26 11:43:14,991 parser       DEBUG    Class CancellationTokenSource
+2020-11-26 11:43:14,992 parser       DEBUG    Signals to a CancellationToken that it should be canceled. To create a CancellationToken first create a CancellationTokenSource then call getToken() to retrieve the token for the source.
+2020-11-26 11:43:14,992 parser       DEBUG    -Methods-
+2020-11-26 11:43:14,995 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:14,995 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Capture.html
+2020-11-26 11:43:15,008 parser       DEBUG    Class Capture<T>
+2020-11-26 11:43:15,008 parser       DEBUG    Provides a class that can be used for capturing variables in an anonymous class implementation.
+2020-11-26 11:43:15,008 parser       DEBUG    -Methods-
+2020-11-26 11:43:15,011 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:15,011 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Continuation.html
+2020-11-26 11:43:15,024 parser       DEBUG    Interface Continuation<TTaskResult,TContinuationResult>
+2020-11-26 11:43:15,025 parser       DEBUG    A function to be called after a task completes. If you wish to have the Task from a Continuation that does not return a Task be cancelled then throw a CancellationException from the Continuation.
+2020-11-26 11:43:15,025 parser       DEBUG    -Methods-
+2020-11-26 11:43:15,026 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:15,026 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/ExecutorException.html
+2020-11-26 11:43:15,038 parser       DEBUG    Class ExecutorException
+2020-11-26 11:43:15,039 parser       DEBUG    This is a wrapper class for emphasizing that task failed due to bad Executor, rather than the continuation block it self.
+2020-11-26 11:43:15,039 parser       DEBUG    -Methods-
+2020-11-26 11:43:15,040 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:15,040 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/MeasurementEvent.html
+2020-11-26 11:43:15,056 parser       DEBUG    Class MeasurementEvent
+2020-11-26 11:43:15,057 parser       DEBUG    Bolts raises events to the application by sending local broadcasts. Application integrated to Bolts can listen to events by registering BroadcastReceiver with intent filter MEASUREMENT_EVENT_NOTIFICATION_NAME. When receive the event, a String field MEASUREMENT_EVENT_NAME_KEY and A Bundle field @{link #MEASUREMENT_EVENT_ARGS_KEY} in Intent extra in indicate the event name and arguments with this event.
+2020-11-26 11:43:15,058 parser       DEBUG    -Methods-
+2020-11-26 11:43:15,060 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:15,060 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Task.html
+2020-11-26 11:43:15,136 parser       DEBUG    Class Task<TResult>
+2020-11-26 11:43:15,137 parser       DEBUG    Represents the result of an asynchronous operation.
+2020-11-26 11:43:15,137 parser       DEBUG    -Methods-
+2020-11-26 11:43:15,151 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:15,151 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/Task.UnobservedExceptionHandler.html
+2020-11-26 11:43:15,161 parser       DEBUG    Interface Task.UnobservedExceptionHandler
+2020-11-26 11:43:15,161 parser       DEBUG    Interface for handlers invoked when a failed Task is about to be finalized, but the exception has not been consumed. The handler will execute in the GC thread, so if the handler needs to do anything time consuming or complex it is a good idea to fire off a Task to handle the exception.
+2020-11-26 11:43:15,162 parser       DEBUG    -Methods-
+2020-11-26 11:43:15,162 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:15,163 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/TaskCompletionSource.html
+2020-11-26 11:43:15,178 parser       DEBUG    Class TaskCompletionSource<TResult>
+2020-11-26 11:43:15,179 parser       DEBUG    Allows safe orchestration of a task's completion, preventing the consumer from prematurely completing the task. Essentially, it represents the producer side of a Task, providing access to the consumer side through the getTask() method while isolating the Task's completion mechanisms from the consumer.
+2020-11-26 11:43:15,179 parser       DEBUG    -Methods-
+2020-11-26 11:43:15,182 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:15,182 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/UnobservedTaskException.html
+2020-11-26 11:43:15,198 parser       DEBUG    Class UnobservedTaskException
+2020-11-26 11:43:15,198 parser       DEBUG    Used to signify that a Task's error went unobserved.
+2020-11-26 11:43:15,198 parser       DEBUG    -Methods-
+2020-11-26 11:43:15,199 parser       DEBUG    -----END OF CLASS------
+
+2020-11-26 11:43:15,199 parser       DEBUG    /Users/huseyinalecakir/Desktop/JavaDocScraper/JavaDocs/boltsframework.github.io/Bolts-Android/bolts/WebViewAppLinkResolver.html
+2020-11-26 11:43:15,215 parser       DEBUG    Class WebViewAppLinkResolver
+2020-11-26 11:43:15,215 parser       DEBUG    A reference implementation for an App Link resolver that uses a hidden WebView to parse the HTML containing App Link metadata.
+2020-11-26 11:43:15,215 parser       DEBUG    -Methods-
+2020-11-26 11:43:15,216 parser       DEBUG    -----END OF CLASS------
+
