@@ -6,5 +6,4 @@ for _, row in df.iterrows():
     if row["Status"] == "OK":
         url = row["Additional Links"]
         list_files = subprocess.call(["wget", "--no-parent", "--recursive", "--level=inf", "--page-requisites", "--wait=1", url], cwd="JavaDocs")
-        print("The exit code was: %d" % list_files.returncode)  
 
