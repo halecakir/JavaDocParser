@@ -56,27 +56,25 @@ def single_class(directory):
         details = details.find("li", {"class": "blockList"}).find_all(
             "ul", {"class": "blockList"})
         for d in details:
-            if d.find("a", {"name": "method.detail"}):
-                for ul_block in d.find_all("ul", {"class": "blockList"}):
-                    method_signature = re.sub(
-                        ' +', ' ', ul_block.find("pre").get_text().strip().replace('\n', ''))
-                    method_description_block = ul_block.find(
-                        "div", {"class": "block"})
-                    method = {}
-                    method["groupid"] = groupid
-                    method["artefactid"] = artefactid
-                    method["api"] = api
-                    method["class"] = class_name
-                    method["method"] = method_signature
-                    logger.debug(method_signature)
-                    if method_description_block:
-                        method_description = re.sub(
-                            ' +', ' ', method_description_block.get_text().replace('\n', ''))
-                        method["description"] = method_description.replace(
-                            '"', '')
-                        logger.debug(method_description)
-                    methods.append(method)
-                    logger.debug("---")
+            for ul_block in d.find_all("ul", {"class": "blockList"}):
+                method_signature = re.sub(
+                    ' +', ' ', ul_block.find("pre").get_text().strip().replace('\n', ''))
+                method_description_block = ul_block.find(
+                    "div", {"class": "block"})
+                method = {}
+                method["url"] = "/".join(os.path.dirname(directory).split("/")[-2:])
+                method["api"] = api
+                method["class"] = class_name
+                method["method"] = method_signature
+                logger.debug(method_signature)
+                if method_description_block:
+                    method_description = re.sub(
+                        ' +', ' ', method_description_block.get_text().replace('\n', ''))
+                    method["description"] = method_description.replace(
+                        '"', '')
+                    logger.debug(method_description)
+                methods.append(method)
+                logger.debug("---")
     logger.debug("-----END OF CLASS------\n")
     return class_, methods
 
@@ -100,7 +98,8 @@ def parse_java_docs():
                         logger.error("File not found {}".format(directory))
                     except AttributeError as error:
                         logger.error(error)
-
+                    except Exception as error:
+                        logger.error(error)
     class_ = pd.DataFrame(class_descriptions)
     method_ = pd.DataFrame(method_descriptions)
     class_.to_csv(os.path.join(OUTPUT_DIR, "classes.csv"))
